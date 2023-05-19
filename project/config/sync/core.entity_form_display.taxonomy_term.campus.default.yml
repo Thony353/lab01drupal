@@ -1,0 +1,24 @@
+uuid: ed410685-5d77-4fd1-868a-e916e06c4ee0
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.campus
+id: taxonomy_term.campus.default
+targetEntityType: taxonomy_term
+bundle: campus
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  langcode: true
+  path: true
+  status: true
